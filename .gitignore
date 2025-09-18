@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Envs (учитывает ваши подпапки)
+venv/
+**/venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & data
+*.log
+*.sqlite*
+*.db
+*.pid
+
+# Secrets
+.env
+*.pem
+*.key
+*.crt
+*.p12
+
+# Packages / builds
+dist/
+build/
+*.tar
+*.zip
+
+# Docker
+**/.dockerignore
+
+# Kubernetes secrets
+**/secret.yaml
+**/*secret*.yaml
